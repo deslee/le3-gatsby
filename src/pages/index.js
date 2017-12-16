@@ -5,14 +5,7 @@ import { css } from 'glamor';
 import Img from 'gatsby-image';
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaInstagram  } from 'react-icons/lib/fa';
 
-import { unstyledLink } from '../utils/reusableStyles';
-
-const socialIcons = {
-  width: '2rem', 
-  height: '2rem',
-  color: '#555',
-  opacity: '.95'
-};
+import { unstyledLink, socialIcons } from '../utils/reusableStyles';
 
 const menuItem = {
   ...unstyledLink,
