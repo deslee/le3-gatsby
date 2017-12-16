@@ -30,7 +30,6 @@ const Sidebar = ({ innerCss, data }) => (
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
-        background: '#f6f7f9'
     }}>
         <div css={{flex: '2'}}></div>
         <div css={{flex: '6', textAlign: 'center'}}>
@@ -59,16 +58,17 @@ const MainContent = ({ title, children, data }) => (
             }
         }}>
             <div css={{
-                display: 'none',
                 [breakpoints.mediumAndUp]: {
-                    display: 'block'
                 },
                 flex: '4'
             }}>
                 <Sidebar innerCss={{
-                    height: '100vh',
-                    position: 'fixed',
-                    width: '39%'
+                    [breakpoints.mediumAndUp]: {
+                        height: '100vh',
+                        position: 'fixed',
+                        width: '39%',
+                        background: '#f6f7f9',
+                    },
                 }} data={data}>
                 </Sidebar>
             </div>
