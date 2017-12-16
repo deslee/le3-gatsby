@@ -33,7 +33,7 @@ const Sidebar = ({ innerCss, data }) => (
     }}>
         <div css={{flex: '2'}}></div>
         <div css={{flex: '6', textAlign: 'center'}}>
-            <img css={{ width: '75%', maxWidth: '12rem', marginBottom: '0' }} src={data.logo.resize.tracedSVG} />
+            <Link to="/"><img css={{ width: '75%', maxWidth: '12rem', marginBottom: '0' }} src={data.logo.resize.tracedSVG} /></Link>
             <h1>Desmond Lee</h1>
             <p>Software Consultant from DFW</p>
             <div css={{ marginBottom: '' }}>
