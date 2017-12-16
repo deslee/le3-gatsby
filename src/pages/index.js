@@ -1,13 +1,25 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+import { Intro } from '../components/Intro'
+
+const IndexPage = ({ data }) => (
+  <Intro data={data} />
 )
 
 export default IndexPage
+
+export const query = graphql`
+query indexPageQuery {
+  logo: imageSharp(id: {regex: "/images\/logo.png/"}) {
+    resize(width: 350, traceSVG: {color: "#3DAEE3"}) {
+      tracedSVG
+    }
+  },
+  splash: imageSharp(id: {regex: "/images\/denys-nevozhai-351730*/"}) {
+    sizes(maxWidth: 1440, duotone: { highlight: "#3DAEE3", shadow: "#3DAEE3", opacity: 35 }) {
+      ...GatsbyImageSharpSizes
+    }
+  }
+}
+`;

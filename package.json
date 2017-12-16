@@ -12,7 +12,8 @@
     "gatsby-plugin-sharp": "^1.6.23",
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-sharp": "^1.6.16"
+    "gatsby-transformer-sharp": "^1.6.16",
+    "react-icons": "^2.2.7"
   },
   "keywords": [
     "gatsby"
