@@ -9,20 +9,20 @@ const unstyledLink = {
     textDecoration: 'none'
   }
 
-const AboutPage = ({ data }) => (
-    <GenericContent title="About">
+const ResumePage = ({ data }) => (
+    <GenericContent title="Resume">
         <Helmet>
-            <title>About | Desmond Lee</title>
+            <title>Resume | Desmond Lee</title>
         </Helmet>
         <article dangerouslySetInnerHTML={{__html: data.markdownRemark.html }}></article>
     </GenericContent>
   )
   
-export default AboutPage
+export default ResumePage
 
 export const query = graphql`
-query aboutPageQuery {
-    markdownRemark(id:{regex:"/about.md/"}) {
+query resumePageQuery {
+    markdownRemark(id:{regex:"/resume.md/"}) {
         html
     }
 }
