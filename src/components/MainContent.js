@@ -5,14 +5,25 @@ import { unstyledLink, breakpoints, contentAnimation, socialIcons } from '../uti
 import { nav } from '../utils/constants';
 import { Footer } from './Footer';
 
-const MainSection = ({ title, children, innerCss }) => (
+const MainSection = ({ title, children, innerCss, current }) => (
     <section css={{...innerCss}}>
         <nav css={{
             padding: '2rem 1rem 1rem',
             borderBottom: '1px solid #dedede',
             marginBottom: '1rem'
         }}>
-            { nav.map(item => <Link key={item.to} to={item.to} css={{ ...unstyledLink, paddingRight: '1rem' }}>{item.name}</Link>) }
+            { nav.map(item => 
+                <Link 
+                    key={item.to} 
+                    to={item.to} 
+                    css={{ 
+                        ...unstyledLink, 
+                        marginRight: '1rem', 
+                        paddingBottom: '1rem', 
+                        borderBottom: current && current === item.name ? '1px solid #5A5A5A' : 'none' 
+                    }}
+                >{item.name}</Link>
+            ) }
         </nav>
         <div css={{
             padding: '.67rem 1rem 1rem',
@@ -49,7 +60,7 @@ const Sidebar = ({ innerCss, data }) => (
     </div>
 )
 
-const MainContent = ({ title, children, data }) => (
+const MainContent = ({ title, children, current, data }) => (
     <div>
         <div css={{
             minHeight: '100vh',
@@ -75,7 +86,7 @@ const MainContent = ({ title, children, data }) => (
             </div>
             <MainSection innerCss={{
                 flex: '6'
-            }} title={title}>
+            }} title={title} current={current}>
                 { children }
             </MainSection>
         </div>

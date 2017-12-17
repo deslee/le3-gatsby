@@ -2,7 +2,7 @@ import React from 'react'
 import MainContent from '../components/MainContent'
 
 const Projects = ({ data }) => (
-    <MainContent data={data}>
+    <MainContent data={data} current="Projects">
         Projects
     </MainContent>
 )

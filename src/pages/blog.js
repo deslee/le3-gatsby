@@ -2,7 +2,7 @@ import React from 'react'
 import MainContent from '../components/MainContent'
 
 const Blog = ({ data }) => (
-    <MainContent data={data}>
+    <MainContent data={data} current="Blog">
         Blog
     </MainContent>
 )

@@ -10,7 +10,7 @@ const unstyledLink = {
   }
 
 const AboutPage = ({ data }) => (
-    <MainContent title="About" data={data}>
+    <MainContent title="About" data={data} current="About">
         <Helmet>
             <title>About | Desmond Lee</title>
         </Helmet>
