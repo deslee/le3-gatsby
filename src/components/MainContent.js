@@ -9,7 +9,8 @@ const MainSection = ({ title, children, innerCss }) => (
     <section css={{...innerCss}}>
         <nav css={{
             padding: '2rem 1rem 1rem',
-            borderBottom: '1px solid #dedede'
+            borderBottom: '1px solid #dedede',
+            marginBottom: '1rem'
         }}>
             { nav.map(item => <Link key={item.to} to={item.to} css={{ ...unstyledLink, paddingRight: '1rem' }}>{item.name}</Link>) }
         </nav>
@@ -18,7 +19,7 @@ const MainSection = ({ title, children, innerCss }) => (
             maxWidth: '48rem',
             ...contentAnimation
         }}>
-            { title && <h1 css={{ fontSize: '2.66em', borderBottom: '1px solid #333', paddingBottom: '.5rem'}}>{title}</h1> }
+            { title && <h1 css={{ fontSize: '2.66em', borderBottom: '1px solid #dedede', paddingBottom: '.5rem'}}>{title}</h1> }
             { children }
         </div>
     </section>
