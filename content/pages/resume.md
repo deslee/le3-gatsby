@@ -1,3 +1,7 @@
+---
+title: 'Resume'
+slug: 'resume'
+---
 # Summary
 
 Information Technology professional with experience in mobile application and full
@@ -16,7 +20,7 @@ iOS applications.
 # Experience
 
 **Software Consultant, Pariveda Solutions**
-Dallas, TX --- August 2015
+Dallas, TX — August 2015 to present
 
 Pariveda Solutions is a software IT consulting firm based in Dallas, Texas.
 
@@ -29,7 +33,7 @@ Pariveda Solutions is a software IT consulting firm based in Dallas, Texas.
 
 
 **Software Engineer, Tekzenit, Inc.**
-Dallas, TX --- May 2013 to Aug 2013 and May 2014 to Aug 2014
+Dallas, TX — May 2013 to Aug 2013 and May 2014 to Aug 2014
 
 Tekzenit, Inc. is a software and UX design company based in Irving, Texas.
 
@@ -42,7 +46,7 @@ Tekzenit, Inc. is a software and UX design company based in Irving, Texas.
 
 
 **Software Intern, Captured Dimensions**
-Richardson, TX --- December 2013 to May 2014
+Richardson, TX — December 2013 to May 2014
 
 Captured Dimensions is a startup company providing 3D printing and scanning services.
 
@@ -54,7 +58,7 @@ Captured Dimensions is a startup company providing 3D printing and scanning serv
 # Education
 
 **The University of Texas at Dallas**
-Software Engineering, B.S --- 2011 to 2015
+Software Engineering, B.S — 2011 to 2015
 
 *Accomplishments*
 

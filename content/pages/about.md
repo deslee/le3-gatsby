@@ -1,4 +1,7 @@
-
+---
+title: 'About Me'
+slug: 'about'
+---
 # Hi, I'm Desmond
 
 I'm a Software Engineer from Dallas, Texas. This blog is a place to talk about all the things I love.
@@ -20,7 +23,7 @@ I'm a Software Engineer from Dallas, Texas. This blog is a place to talk about a
     * Firebase
     * SignalR
     
-* Tinkering with Arduinos and Raspberry Pi's
+* Tinkering with Arduinos and Raspberry Pis
 
 * Creating apps that increase my productivity
     * Android
@@ -28,8 +31,6 @@ I'm a Software Engineer from Dallas, Texas. This blog is a place to talk about a
     * Web platform
     
 ## Other interests
-
-I also have experience in:
 
 * ASP.NET
 * Django

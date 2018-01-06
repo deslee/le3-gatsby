@@ -1,3 +1,7 @@
+---
+title: 'Sample Page'
+slug: 'sample'
+---
 An h1 header
 ============
 

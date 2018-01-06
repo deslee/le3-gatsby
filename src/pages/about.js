@@ -4,11 +4,6 @@ import { css } from 'glamor';
 
 import MainContent from '../components/MainContent'
 
-const unstyledLink = {
-    color: 'inherit',
-    textDecoration: 'none'
-  }
-
 const AboutPage = ({ data }) => (
     <MainContent title="About" data={data} current="About">
         <Helmet>
