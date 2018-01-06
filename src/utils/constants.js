@@ -8,7 +8,11 @@ export const nav = [
         to: '/projects'
     },
     {
+        name: 'Resume',
+        to: '/resume'
+    }/*,
+    {
         name: 'Blog',
         to: '/blog'
-    }
+    }*/
 ]

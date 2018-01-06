@@ -19,8 +19,7 @@ const MainSection = ({ title, children, innerCss, current }) => (
                     css={{ 
                         ...unstyledLink, 
                         marginRight: '1rem', 
-                        paddingBottom: '1rem', 
-                        borderBottom: current && current === item.name ? '1px solid #5A5A5A' : 'none' 
+                        paddingBottom: '1rem'
                     }}
                 >{item.name}</Link>
             ) }
@@ -28,6 +27,10 @@ const MainSection = ({ title, children, innerCss, current }) => (
         <div css={{
             padding: '.67rem 1rem 1rem',
             maxWidth: '48rem',
+            ' a': {
+                'color': '#3DAEE3',
+                'textDecoration': 'none'
+            },
             ...contentAnimation
         }}>
             { title && <h1 css={{ fontSize: '2.66em', borderBottom: '1px solid #dedede', paddingBottom: '.5rem'}}>{title}</h1> }
