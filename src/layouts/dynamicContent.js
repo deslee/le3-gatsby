@@ -5,6 +5,7 @@ import { css } from 'glamor';
 import MainContent from '../components/MainContent'
 
 const DynamicPage = ({ data }) => {
+    console.log(JSON.stringify(data, null, 2))
     return (
         <MainContent title={data.markdownRemark.frontmatter.title} data={data} current={data.markdownRemark.frontmatter.title}>
             <Helmet>
