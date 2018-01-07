@@ -10,7 +10,11 @@ const MainSection = ({ title, children, innerCss, current }) => (
         <nav css={{
             padding: '2rem 1rem 1rem',
             borderBottom: '1px solid #dedede',
-            marginBottom: '1rem'
+            marginBottom: '1rem',
+            textAlign: 'center',
+            [breakpoints.mediumAndUp]: {
+                textAlign: 'left'
+            },
         }}>
             { nav.map(item => 
                 <Link 
