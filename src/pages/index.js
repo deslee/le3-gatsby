@@ -54,10 +54,10 @@ const IndexPage = ({ data }) => (
           <Link to="/resume" css={{...menuItem}}>Resume</Link>
         </nav>
         <div css={{display: 'flex', justifyContent: 'space-between', marginBottom: '' }}>
-          <a href="http://github.com/deslee" target="_blank" css={{...unstyledLink}}><FaGithub css={socialIcons}/></a>
-          <a href="https://www.linkedin.com/in/deslee/" target="_blank" css={{...unstyledLink}}><FaLinkedin css={socialIcons}/></a>
-          <a href="https://twitter.com/desmond_c_lee" target="_blank" css={{...unstyledLink}}><FaTwitter css={socialIcons}/></a>
-          <a href="https://instagram.com/desle3" target="_blank" css={{...unstyledLink}}><FaInstagram css={socialIcons}/></a>
+          <a href="http://github.com/deslee" target="_blank" rel="noopener" css={{...unstyledLink}}><FaGithub css={socialIcons}/></a>
+          <a href="https://www.linkedin.com/in/deslee/" target="_blank" rel="noopener" css={{...unstyledLink}}><FaLinkedin css={socialIcons}/></a>
+          <a href="https://twitter.com/desmond_c_lee" target="_blank" rel="noopener" css={{...unstyledLink}}><FaTwitter css={socialIcons}/></a>
+          <a href="https://instagram.com/desle3" target="_blank" rel="noopener" css={{...unstyledLink}}><FaInstagram css={socialIcons}/></a>
         </div>
       </header>
     </div>

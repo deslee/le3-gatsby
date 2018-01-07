@@ -56,10 +56,10 @@ const Sidebar = ({ innerCss, data }) => (
             <h1>Desmond Lee</h1>
             <p>Software Consultant from DFW</p>
             <div css={{ marginBottom: '' }}>
-                <a href="http://github.com/deslee" target="_blank" css={{...unstyledLink, padding: '0 1rem'}}><FaGithub css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
-                <a href="https://www.linkedin.com/in/deslee/" target="_blank" css={{...unstyledLink, padding: '0 1rem'}}><FaLinkedin css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
-                <a href="https://twitter.com/desmond_c_lee" target="_blank" css={{...unstyledLink, padding: '0 1rem'}}><FaTwitter css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
-                <a href="https://instagram.com/desle3" target="_blank" css={{...unstyledLink, padding: '0 1rem'}}><FaInstagram css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
+                <a href="http://github.com/deslee" target="_blank" rel="noopener" css={{...unstyledLink, padding: '0 1rem'}}><FaGithub css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
+                <a href="https://www.linkedin.com/in/deslee/" target="_blank" rel="noopener" css={{...unstyledLink, padding: '0 1rem'}}><FaLinkedin css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
+                <a href="https://twitter.com/desmond_c_lee" target="_blank" rel="noopener" css={{...unstyledLink, padding: '0 1rem'}}><FaTwitter css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
+                <a href="https://instagram.com/desle3" target="_blank" rel="noopener" css={{...unstyledLink, padding: '0 1rem'}}><FaInstagram css={{...socialIcons, width: '1.5rem', height: '1.5rem'}}/></a>
             </div>
         </div>
         
