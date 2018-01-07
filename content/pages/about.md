@@ -4,7 +4,7 @@ slug: 'about'
 ---
 # Hi, I'm Desmond
 
-I'm a Software Engineer from Dallas, Texas. This blog is a place to talk about all the things I love.
+I'm a Software Engineer from Dallas, Texas. This site is a place to talk about all the things I love.
 
 ## Some random things about me
 
