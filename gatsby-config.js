@@ -28,5 +28,29 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Desmond Lee's Website",
+        short_name: "Desmond Lee",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#3DAEE3",
+        display: "browser",
+        icons: [
+          {
+            src: `/logo-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/logo-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      }
+    },
+    `gatsby-plugin-offline`
   ],
 }
