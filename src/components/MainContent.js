@@ -23,7 +23,10 @@ const MainSection = ({ title, children, innerCss, current }) => (
                     css={{ 
                         ...unstyledLink, 
                         marginRight: '1rem', 
-                        paddingBottom: '1rem'
+                        paddingBottom: '1rem',
+                        ':last-child': {
+                            'marginRight': '0'
+                        }
                     }}
                 >{item.name}</Link>
             ) }
