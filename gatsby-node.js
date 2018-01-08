@@ -30,13 +30,12 @@
             return Promise.reject(result.errors);
         }
 
-        console.log(JSON.stringify(result.data, null, 2));
         return result.data.pages.edges.map(edge => edge.node);
     }).then(pages => {
         pages.forEach(page => {
             createPage({
                 path: page.frontmatter.slug,
-                component: path.resolve(`src/layouts/dynamicContent.js`),
+                component: path.resolve(`src/components/dynamicContent.js`),
                 context: {
                     id: page.id
                 }

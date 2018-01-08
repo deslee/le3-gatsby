@@ -1,14 +1,14 @@
 ---
-title: 'About Me'
+title: 'About Mr'
 slug: 'about'
 ---
 # Hi, I'm Desmond
 
 I'm a Software Engineer from Dallas, Texas. This site is a place to talk about all the things I love.
 
-## Some random things about me
+## About Me
 
-* I graduated from The University of Texas at Dallas
+* I graduated from The University of Texas at Dallas.
 * I'm learning how to play the ukulele.
 * I love sandbox games. I've logged over 200 hours on Starbound, Kerbal Space Program, and Skyrim combined.
 * I have a brown tabby cat!
@@ -29,19 +29,6 @@ I'm a Software Engineer from Dallas, Texas. This site is a place to talk about a
     * Android
     * Cordova / Phonegap
     * Web platform
-    
-## Other interests
-
-* ASP.NET
-* Django
-
-## Other technologies I love to use
-
-* Java
-* C#
-* Python
-* HTML/CSS/JavaScript
-* SQL
 
 ## Things I want to learn more about
 
