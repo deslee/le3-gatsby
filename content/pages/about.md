@@ -1,5 +1,5 @@
 ---
-title: 'About Mr'
+title: 'About Me'
 slug: 'about'
 ---
 # Hi, I'm Desmond
