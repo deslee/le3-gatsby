@@ -9,9 +9,9 @@ I'm a Software Engineer from Dallas, Texas. This site is a place to talk about a
 ## About Me
 
 * I graduated from The University of Texas at Dallas.
-* I'm learning how to play the ukulele.
+* I can play the ukulele.
 * I love sandbox games. I've logged over 200 hours on Starbound, Kerbal Space Program, and Skyrim combined.
-* I have a brown tabby cat!
+* I have a brown tabby cat.
 
 ## My Current Interests
 
@@ -29,7 +29,3 @@ I'm a Software Engineer from Dallas, Texas. This site is a place to talk about a
     * Android
     * Cordova / Phonegap
     * Web platform
-
-## Things I want to learn more about
-
-* Machine Learning
