@@ -5,10 +5,21 @@ import { css } from 'glamor';
 import MainContent from '../components/MainContent'
 
 const DynamicPage = ({ data }) => {
+
+    let keywords = data.markdownRemark.frontmatter.keywords
+    let description = data.markdownRemark.frontmatter.description
+
+    let keywordTag = keywords && keywords.length && keywords.join &&
+        <meta name="keywords" content={keywords.join(',')} />
+    let descriptionTag = typeof(description) === 'string' && description.length &&
+        <meta name="description" content={description} />
+
     return (
         <MainContent title={data.markdownRemark.frontmatter.title} data={data} current={data.markdownRemark.frontmatter.title}>
             <Helmet>
                 <title>{data.markdownRemark.frontmatter.title} | Desmond Lee</title>
+                {keywordTag}
+                {descriptionTag}
             </Helmet>
             <article dangerouslySetInnerHTML={{__html: data.markdownRemark.html }}></article>
         </MainContent>
@@ -25,6 +36,8 @@ query dynamicContentQuery($id: String!) {
         frontmatter {
             title
             slug
+            description
+            keywords
         }
     },
     logo: imageSharp(id: {regex: "/images\/logo.png/"}) {
