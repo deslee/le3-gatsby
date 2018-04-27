@@ -15,17 +15,23 @@ I'm a Software Engineer from Dallas, Texas. This site is a place to talk about a
 
 ## My Current Interests
 
+* Building serverless applications
+    * Serverless framework
+    * AWS Lambda
+    * Azure Functions
+    * Webtask
+
 * Experimenting with isomorphic javascript
     * Node.js
     * React
-    
-* Building realtime applications
-    * Firebase
-    * SignalR
+    * Angular
     
 * Tinkering with Arduinos and Raspberry Pis
+    * Homelabs
+    * Web controlled addressable LEDs
+    * RetroPie
 
 * Creating apps that increase my productivity
     * Android
     * Cordova / Phonegap
-    * Web platform
+    * Progressive web applications

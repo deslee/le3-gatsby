@@ -42,7 +42,7 @@ const IndexPage = ({ data }) => (
     ]}>
     </Helmet>
     <Img sizes={data.splash.sizes} css={{ top: '0', left: '0', right: '0', zIndex: '0', height: '100vh' }} style={{position: 'absolute'}} />
-    <div css={{ animation: `${animation} 2s`, animationTimingFunction: 'ease ease', transformOrigin: '50% 50%', background: 'rgba(255,255,255,.95)', borderRadius: '1rem', padding: '2rem', textAlign: 'center', zIndex: '2', maxWidth: '21rem'}}>
+    <div css={{ animation: `${animation} 2s`, animationTimingFunction: 'ease ease', transformOrigin: '50% 50%', background: 'rgba(255,255,255,.95)', borderRadius: '1rem', padding: '2rem', textAlign: 'center', zIndex: '2', maxWidth: '22rem'}}>
       <header>
         <img css={{ width: '75%', maxWidth: '12rem', marginBottom: '0' }} src={data.logo.resize.tracedSVG} />
         <h1 css={{marginTop: '0'}} >Desmond Lee</h1>
@@ -51,7 +51,7 @@ const IndexPage = ({ data }) => (
         <nav css={{marginBottom: '1.45rem', display: 'flex', flexWrap: 'wrap'}}>
           <Link to="/about" css={{...menuItem}}>About</Link>
           <Link to="/projects" css={{...menuItem}}>Projects</Link>
-          <Link to="/resume" css={{...menuItem}}>Resume</Link>
+          <Link to="/resume" css={{...menuItem}}>Experience</Link>
         </nav>
         <div css={{display: 'flex', justifyContent: 'space-between', marginBottom: '' }}>
           <a href="http://github.com/deslee" target="_blank" rel="noopener" css={{...unstyledLink}}><FaGithub css={socialIcons}/></a>

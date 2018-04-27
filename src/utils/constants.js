@@ -8,7 +8,7 @@ export const nav = [
         to: '/projects'
     },
     {
-        name: 'Resume',
+        name: 'Experience',
         to: '/resume'
     }/*,
     {

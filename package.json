@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.127",
-    "gatsby-image": "^1.0.27",
-    "gatsby-link": "^1.6.30",
+    "gatsby": "^1.9.244",
+    "gatsby-image": "^1.0.42",
+    "gatsby-link": "^1.6.40",
     "gatsby-plugin-glamor": "^1.6.10",
     "gatsby-plugin-manifest": "^1.0.12",
     "gatsby-plugin-offline": "^1.0.12",
