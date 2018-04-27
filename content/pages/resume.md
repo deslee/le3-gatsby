@@ -11,7 +11,7 @@ iOS applications.
 
 # Skills
 
-* Certified AWS Developer ­ Associate
+* Certified AWS Developer - Associate
 * Agile Development Methodologies
 * Proficient in HTML
 * JavaScript and Node.js expert
