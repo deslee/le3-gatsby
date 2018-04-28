@@ -1,8 +1,14 @@
+import React from "react"
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import rehypeReact from "rehype-react"
 import { css } from 'glamor';
 
 import MainContent from '../components/MainContent'
+
+const renderAst = new rehypeReact({
+    createElement: React.createElement
+  }).Compiler
 
 const DynamicPage = ({ data }) => {
 
@@ -21,7 +27,8 @@ const DynamicPage = ({ data }) => {
                 {keywordTag}
                 {descriptionTag}
             </Helmet>
-            <article dangerouslySetInnerHTML={{__html: data.markdownRemark.html }}></article>
+            <div dangerouslySetInnerHTML={{__html: data.markdownRemark.tableOfContents }}></div>
+            {renderAst(data.markdownRemark.htmlAst)}
         </MainContent>
       );
 
@@ -32,12 +39,13 @@ export default DynamicPage
 export const query = graphql`
 query dynamicContentQuery($id: String!) {
     markdownRemark(id: {eq: $id}) {
-        html
+        htmlAst
+        tableOfContents
         frontmatter {
             title
-            slug
             description
             keywords
+            tableOfContents
         }
     },
     logo: imageSharp(id: {regex: "/images\/logo.png/"}) {
