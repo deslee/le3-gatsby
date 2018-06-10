@@ -14,7 +14,9 @@ gatsby new gatsby-example-site
 
 ## To Dos:
 
-1. Create a "View Source" link in the post footer that links to the markdown file on github
-2. Create configurable "templates" in the frontmatter so different pages can have their own look and feel
+* Modify markdown to use gatsby-image for images
+* Modify markdown to use gatsby-link for links
+* Create a "View Source" link in the post footer that links to the markdown file on github
+* Create configurable "templates" in the frontmatter so different pages can have their own look and feel
     * Maybe a variable for "table of contents" that when enabled displays a table of contents with anchor links to each heading
         * must research a markdown processor for this
