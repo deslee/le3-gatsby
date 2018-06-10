@@ -2,7 +2,6 @@
 title: 'Building a Serverless Slack Chatbot'
 slug: 'building-a-serverless-slackbot'
 description: ''
-tableOfContents: true
 keywords: 
     - chatbot
     - serverless

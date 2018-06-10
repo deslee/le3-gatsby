@@ -11,9 +11,12 @@ const renderAst = new rehypeReact({
   }).Compiler
 
 const DynamicPage = ({ data }) => {
-
     let keywords = data.markdownRemark.frontmatter.keywords
     let description = data.markdownRemark.frontmatter.description
+
+    if (data.markdownRemark.frontmatter.tableOfContents !== true) {
+        delete data.markdownRemark.tableOfContents
+    }
 
     let keywordTag = keywords && keywords.length && keywords.join &&
         <meta name="keywords" content={keywords.join(',')} />
