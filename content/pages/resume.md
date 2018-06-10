@@ -4,18 +4,22 @@ slug: 'resume'
 ---
 # Summary
 
-Information Technology professional with experience in mobile application and full
-stack web development. A flexible and fast learning team member, Desmond has
-strong experience in developing and delivering JavaScript, ASP.NET, Android, and
-iOS applications.
+Information Technology professional with experience in mobile application and full stack web development. A flexible and fast learning team member, Desmond has strong experience in developing and delivering JavaScript, ASP.NET, Android, and iOS applications.
 
 # Skills
 
+## Web
+
 * Certified AWS Developer -­ Associate
 * Agile Development Methodologies
-* Proficient in HTML
-* JavaScript and Node.js expert
-* ASP.NET
+* ASP.NET and Node.js
+* Angular, React / Redux, ASP.NET MVC
+
+## Mobile
+
+* Android and iOS (Swift)
+* Xamarin
+* Ionic Framework / Apache Cordova
 
 # Experience
 
@@ -26,11 +30,7 @@ Pariveda Solutions is a software IT consulting firm based in Dallas, Texas.
 
 *Accomplishments*
 
-* **Consultant 1**, August 2015 to March 2017
-    * Developed and designed back­end services as well as large parts of a mobile back office for a network marketing company. Used Ionic and AngularJS, targeting iOS and Android.
-    * Delivered a proof of concept application for Android to a large Fortune 500 company in the manufacturing field. Used a wireless vehicle bus adapter to stream data to cloud services hosted in Amazon Web Services for analytics and data warehousing.
-    * Enhanced multiple enterprise applications to use a single-sign-on solution for a large event planning company. Integrated with several production applications with minimal downtime.
-        * Used IdentityServer / WS-Federation to act as an identity provider.
+* **Associate 1**, March 2018 to Present
 
 * **Consultant 2**, March 2017 to March 2018
     * Developed a configurable DSL at a large healthcare provider for building cross-platform user interfaces.
@@ -41,7 +41,11 @@ Pariveda Solutions is a software IT consulting firm based in Dallas, Texas.
         * Worked with Visual Studio Team Services to continuously build and release .NET Applications to Kerbenetes in Docker containers
         * Presented proof of concepts for conversational technology involving Alexa and Azure Cognitive Sciences
 
-* **Associate 1**, March 2018 to Present
+* **Consultant 1**, August 2015 to March 2017
+    * Developed and designed back­end services as well as large parts of a mobile back office for a network marketing company. Used Ionic and AngularJS, targeting iOS and Android.,
+    * Delivered a proof of concept application for Android to a large Fortune 500 company in the manufacturing field. Used a wireless vehicle bus adapter to stream data to cloud services hosted in Amazon Web Services for analytics and data warehousing.
+    * Enhanced multiple enterprise applications to use a single-sign-on solution for a large event planning company. Integrated with several production applications with minimal downtime. 
+        * Used IdentityServer / WS-Federation to act as an identity provider.
 
 **Software Engineer, Tekzenit, Inc.**
 Dallas, TX — May 2013 to Aug 2013 and May 2014 to Aug 2014
