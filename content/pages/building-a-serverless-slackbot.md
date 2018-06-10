@@ -13,7 +13,7 @@ I made a bot for Slack during my free time. It's at a state where I'm pretty hap
 
 # Architecture
 
-![Picture of the Punbot architecture](/punbot/punbot.svg)
+![Picture of the Punbot architecture](/punbot/architecture.svg)
 
 The four main components are:
 
