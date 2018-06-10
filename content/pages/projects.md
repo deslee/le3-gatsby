@@ -1,6 +1,7 @@
 ---
 title: 'Projects'
 slug: 'projects'
+tableOfContents: false
 ---
 
 ## This website
