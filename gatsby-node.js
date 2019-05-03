@@ -8,6 +8,18 @@
 
  const path = require('path');
 
+ // Create slugs for files.
+exports.onCreateNode = ({ node, boundActionCreators }) => {
+    const { createNodeField } = boundActionCreators
+    if (node.internal.type === 'MarkdownRemark') {
+      createNodeField({
+        node,
+        name: 'slug',
+        value: node.frontmatter.slug ? node.frontmatter.slug : path.basename(node.fileAbsolutePath, '.md'),
+      })
+    }
+  }
+
  exports.createPages = ({ boundActionCreators, graphql }) => {
     const { createPage } = boundActionCreators;
     return graphql(`
@@ -16,8 +28,7 @@
         edges {
             node {
                 id
-                frontmatter {
-                    title
+                fields {
                     slug
                 }
             }
@@ -34,7 +45,7 @@
     }).then(pages => {
         pages.forEach(page => {
             createPage({
-                path: page.frontmatter.slug,
+                path: page.fields.slug,
                 component: path.resolve(`src/components/dynamicContent.js`),
                 context: {
                     id: page.id

@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import './index.css'
+require('prismjs/themes/prism.css')
 
 const TemplateWrapper = ({ data, children }) => (
 <div>
