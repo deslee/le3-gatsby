@@ -11,7 +11,6 @@ I'm a Software Engineer from Dallas, Texas. This site is a place to talk about a
 * I graduated from The University of Texas at Dallas.
 * I can play the ukulele.
 * I love sandbox games. I've logged over 200 hours on Starbound, Kerbal Space Program, and Skyrim combined.
-* I have a brown tabby cat.
 
 ## My Current Interests
 
