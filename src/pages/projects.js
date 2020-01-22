@@ -8,6 +8,8 @@ const Projects = ({ data }) => (
             <title>Projects | Desmond Lee</title>
         </Helmet>
         <p>This website itself is one of my projects. It is built following the <a href="https://jamstack.org" target="_blank" rel="noopener">JAMstack</a> architecture with a static site generator called <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener">Gatsby</a>, which uses <a href="https://reactjs.org" target="_blank" rel="noopener">React.js</a>.</p>
+    
+        <p>Check out <a href="https://autoboop.com" target="_blank" rel="noopener">Autoboop</a>!</p>
 
         <p>This page is still under construction. Here is my <a href="https://github.com/deslee">Github</a>.</p>
     </MainContent>
